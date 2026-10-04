@@ -15,7 +15,7 @@ canvas{display:block}
 #feed{position:absolute;right:20px;top:60px;text-align:right;font-size:14px;text-shadow:0 1px 3px #000}
 #mini{position:absolute;left:16px;top:16px;width:130px;height:130px;border-radius:50%;border:2px solid #fff6;background:#0a2a4a}
 #dmg{position:absolute;inset:0;box-shadow:inset 0 0 120px #f00;opacity:0;transition:opacity .3s}
-#screen{position:fixed;inset:0;background:#000b;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+#screen{position:fixed;inset:0;background:#000b;display:flex;z-index:20;pointer-events:auto;flex-direction:column;align-items:center;justify-content:center;text-align:center}
 #screen h1{font-size:48px;margin:0 0 8px}button{font-size:20px;padding:12px 32px;border:0;border-radius:8px;background:#ffb300;cursor:pointer;margin-top:16px}
 #menu{background:linear-gradient(#1b2b4a,#0d1626);padding:28px 44px;border-radius:14px;border:2px solid #ffb300;max-width:520px}
 #nm{font-size:18px;padding:8px 12px;border-radius:6px;border:0;text-align:center;margin-top:12px}
@@ -25,7 +25,7 @@ canvas{display:block}
 .sel{background:#fff3;transform:translateY(-6px)}.inv{width:auto;display:flex;align-items:center;white-space:nowrap;padding:0 10px}
 #prompt{position:absolute;left:50%;top:62%;transform:translateX(-50%);background:#000a;padding:6px 14px;border-radius:6px;display:none}
 #screen.lobby{background:none;justify-content:flex-start;padding-left:5vw}#menu button{margin:16px 6px 0}#ctl{display:none}#cust{margin-top:14px}#cust select,#cust input[type=color]{margin:6px 4px 0;height:36px;border-radius:6px;border:0;font-size:14px}
-.ov{position:fixed;inset:0;background:#000b;display:none;align-items:center;justify-content:center;z-index:5}#setm{z-index:9}
+.ov{position:fixed;inset:0;background:#000b;display:none;pointer-events:auto;align-items:center;justify-content:center;z-index:5}#setm{z-index:9}
 .panel{background:#10192bf0;border:1px solid #ffb30088;border-radius:14px;padding:24px 34px;min-width:300px;text-align:center}.panel button{display:block;width:100%;margin:10px 0 0}
 #cf{display:none;margin-top:14px}#setb label{display:flex;justify-content:space-between;gap:16px;margin:10px 0;font-size:14px;align-items:center}.sec{background:#2b3a5c;color:#fff}
 #stormt{position:absolute;left:50%;top:14px;transform:translateX(-50%);background:#0009;padding:6px 16px;border-radius:20px;font-weight:600;border:1px solid #b040ff}
