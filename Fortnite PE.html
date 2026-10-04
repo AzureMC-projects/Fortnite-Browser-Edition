@@ -87,6 +87,7 @@ button{font-weight:800;letter-spacing:.3px;border-radius:10px;background:linear-
     if(el('howbtn')) el('howbtn').onclick=()=>{const c=el('ctl');c.style.display=c.style.display==='grid'?'none':'grid'};
     if(el('lob')) el('lob').onclick=()=>{credits.style.display='none';settings.style.display='none';pause.style.display='none';screen.style.display='flex';screen.className='lobby'};
     if(el('creditsBtn')) el('creditsBtn').setAttribute('aria-label','Open credits');
+    if(el('go')) el('go').onclick=()=>{ if(!window.THREE){ alert('Fortnite PE needs WebGL and a working Three.js connection. Try Chrome or Edge with hardware acceleration enabled.'); } };
   }
   if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',wire,{once:true}); else wire();
 })();
