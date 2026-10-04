@@ -1,10 +1,13 @@
 # Fortnite BE
 
-**Fortnite BE (Browser Edition)** is a fan-made, low-poly battle-royale-style browser game built with HTML, JavaScript, and Three.js. It runs directly in a modern web browser.
+**Fortnite BE (Browser Edition)** is a stylized 3D battle-royale-style browser game built with HTML, JavaScript, and Three.js.
+
+## Visual upgrade
+The game is no longer presented as a low-poly prototype. The current build uses smoother, higher-segment character, weapon, tree, rock, and terrain geometry with more polished presentation.
 
 ## Features
-- Low-poly third-person combat and player customization
-- Procedural island terrain with towns, houses, trees, rocks, doors, roofs, and loot chests
+- Smooth 3D third-person combat and player customization
+- Procedural island terrain with towns, houses, trees, rocks, roofs, and loot chests
 - Weapons with rarity tiers, ammo, reloads, spread, recoil, and hit feedback
 - Enemy bots with looting, combat, movement, and storm awareness
 - Storm-circle gameplay and minimap
@@ -28,13 +31,13 @@
 - Esc: pause
 
 ## Running locally
-Open `low poly royal.html` in a modern browser, or serve the repository with a small local HTTP server. The game loads Three.js from a CDN, so an internet connection may be required at launch.
+Open **Fortnite BE.html** in a modern browser, or serve the repository with a small local HTTP server. The game loads Three.js from a CDN, so an internet connection may be required at launch.
 
 ## Credits
 **JacobProjects** — project creator / developer.
 
 ## Disclaimer
-This is an independent browser project and is not affiliated with or endorsed by Epic Games. It uses its own low-poly assets and gameplay implementation.
+This is an independent browser project and is not affiliated with or endorsed by Epic Games. It uses original browser-game assets and gameplay implementation.
 
 ## Project name
 The in-game title is **Fortnite BE** — short for **Fortnite Browser Edition**.
