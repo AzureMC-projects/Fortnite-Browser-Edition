@@ -1,6 +1,6 @@
-# Fortnite BE
+# Fortnite PE
 
-**Fortnite BE (Browser Edition)** is a stylized 3D battle-royale-style browser game built with HTML, JavaScript, and Three.js.
+**Fortnite PE (Performance Edition)** is a stylized 3D battle-royale-style browser game built with HTML, JavaScript, and Three.js.
 
 ## Visual upgrade
 The game is no longer presented as a low-poly prototype. The current build uses smoother, higher-segment character, weapon, tree, rock, and terrain geometry with more polished presentation.
@@ -31,7 +31,7 @@ The game is no longer presented as a low-poly prototype. The current build uses 
 - Esc: pause
 
 ## Running locally
-Open **Fortnite BE.html** in a modern browser, or serve the repository with a small local HTTP server. The game loads Three.js from a CDN, so an internet connection may be required at launch.
+Open **Fortnite PE.html** in a modern browser, or serve the repository with a small local HTTP server. The game loads Three.js from a CDN, so an internet connection may be required at launch.
 
 ## Credits
 **JacobProjects** — project creator / developer.
@@ -40,4 +40,4 @@ Open **Fortnite BE.html** in a modern browser, or serve the repository with a sm
 This is an independent browser project and is not affiliated with or endorsed by Epic Games. It uses original browser-game assets and gameplay implementation.
 
 ## Project name
-The in-game title is **Fortnite BE** — short for **Fortnite Browser Edition**.
+The in-game title is **Fortnite PE** — short for **Fortnite Performance Edition**.
