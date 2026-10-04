@@ -391,7 +391,7 @@ $('setb').innerHTML=SR.map(r=>`<label>${r[1]}<input type=range data-k=${r[0]} mi
 $('setb').oninput=e=>{const t=e.target,k=t.dataset.k;S[k]=t.type==='checkbox'?+t.checked:t.tagName==='SELECT'?t.value:+t.value;save();applyS()};
 $('nm').value=S.name;$('c1').value=S.shirt;$('c2').value=S.pants;$('hat').value=S.hat;$('pk').value=S.pack;
 $('cust').oninput=e=>{S.name=$('nm').value||'Player';S.shirt=$('c1').value;S.pants=$('c2').value;S.hat=+$('hat').value;S.pack=+$('pk').value;save();if(e.target.id!=='nm')rebuildPlayer()};
-$('setbtn').onclick=$('ps').onclick=()=>$('setm').style.display='flex';$('setx').onclick=()=>$('setm').style.display='none';
+$('creditsBtn').onclick=()=>{$('credits').style.display='flex'};$('creditsClose').onclick=()=>{$('credits').style.display='none'};$('setbtn').onclick=$('ps').onclick=()=>$('setm').style.display='flex';$('setx').onclick=()=>$('setm').style.display='none';
 $('howbtn').onclick=()=>{const c=$('ctl');c.style.display=c.style.display==='grid'?'none':'grid'};
 $('rs').onclick=resume;$('pl').onclick=()=>$('cf').style.display='block';$('cn').onclick=()=>$('cf').style.display='none';$('cy').onclick=toLobby;$('lob').onclick=toLobby;
 $('pr').onclick=()=>{$('pause').style.display='none';start()};
